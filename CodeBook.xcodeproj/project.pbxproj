@@ -17,8 +17,6 @@
 		186EC3DE16D9DE3000755AFF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3DD16D9DE3000755AFF /* Default@2x.png */; };
 		186EC3E016D9DE3000755AFF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3DF16D9DE3000755AFF /* Default-568h@2x.png */; };
 		186EC3E316D9DE3000755AFF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3E116D9DE3000755AFF /* MainStoryboard.storyboard */; };
-		186EC3E616D9DE3000755AFF /* CBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3E516D9DE3000755AFF /* CBMasterViewController.m */; };
-		186EC3E916D9DE3000755AFF /* CBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3E816D9DE3000755AFF /* CBDetailViewController.m */; };
 		186EC3F216DA6E2900755AFF /* CBMainEntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3F116DA6E2800755AFF /* CBMainEntryData.m */; };
 		186EC3F916DE630900755AFF /* CBButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3F816DE630900755AFF /* CBButtonViewController.m */; };
 		186EC3FD16DE63FC00755AFF /* CBTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3FC16DE63FC00755AFF /* CBTextFieldViewController.m */; };
@@ -53,10 +51,6 @@
 		186EC3DD16D9DE3000755AFF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		186EC3DF16D9DE3000755AFF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		186EC3E216D9DE3000755AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		186EC3E416D9DE3000755AFF /* CBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBMasterViewController.h; sourceTree = "<group>"; };
-		186EC3E516D9DE3000755AFF /* CBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBMasterViewController.m; sourceTree = "<group>"; };
-		186EC3E716D9DE3000755AFF /* CBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBDetailViewController.h; sourceTree = "<group>"; };
-		186EC3E816D9DE3000755AFF /* CBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBDetailViewController.m; sourceTree = "<group>"; };
 		186EC3F016DA6E2800755AFF /* CBMainEntryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMainEntryData.h; sourceTree = "<group>"; };
 		186EC3F116DA6E2800755AFF /* CBMainEntryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMainEntryData.m; sourceTree = "<group>"; };
 		186EC3F716DE630900755AFF /* CBButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBButtonViewController.h; sourceTree = "<group>"; };
@@ -156,10 +150,6 @@
 				186EC3D816D9DE3000755AFF /* CBAppDelegate.h */,
 				186EC3D916D9DE3000755AFF /* CBAppDelegate.m */,
 				186EC3E116D9DE3000755AFF /* MainStoryboard.storyboard */,
-				186EC3E416D9DE3000755AFF /* CBMasterViewController.h */,
-				186EC3E516D9DE3000755AFF /* CBMasterViewController.m */,
-				186EC3E716D9DE3000755AFF /* CBDetailViewController.h */,
-				186EC3E816D9DE3000755AFF /* CBDetailViewController.m */,
 				186EC3D016D9DE3000755AFF /* Supporting Files */,
 				186EC3F016DA6E2800755AFF /* CBMainEntryData.h */,
 				186EC3F116DA6E2800755AFF /* CBMainEntryData.m */,
@@ -402,8 +392,6 @@
 			files = (
 				186EC3D616D9DE3000755AFF /* main.m in Sources */,
 				186EC3DA16D9DE3000755AFF /* CBAppDelegate.m in Sources */,
-				186EC3E616D9DE3000755AFF /* CBMasterViewController.m in Sources */,
-				186EC3E916D9DE3000755AFF /* CBDetailViewController.m in Sources */,
 				186EC3F216DA6E2900755AFF /* CBMainEntryData.m in Sources */,
 				186EC3F916DE630900755AFF /* CBButtonViewController.m in Sources */,
 				186EC3FD16DE63FC00755AFF /* CBTextFieldViewController.m in Sources */,
