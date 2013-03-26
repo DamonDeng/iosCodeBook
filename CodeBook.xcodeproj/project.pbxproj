@@ -19,6 +19,23 @@
 		186EC3E316D9DE3000755AFF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3E116D9DE3000755AFF /* MainStoryboard.storyboard */; };
 		186EC3E616D9DE3000755AFF /* CBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3E516D9DE3000755AFF /* CBMasterViewController.m */; };
 		186EC3E916D9DE3000755AFF /* CBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3E816D9DE3000755AFF /* CBDetailViewController.m */; };
+		186EC3F216DA6E2900755AFF /* CBMainEntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3F116DA6E2800755AFF /* CBMainEntryData.m */; };
+		186EC3F916DE630900755AFF /* CBButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3F816DE630900755AFF /* CBButtonViewController.m */; };
+		186EC3FD16DE63FC00755AFF /* CBTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3FC16DE63FC00755AFF /* CBTextFieldViewController.m */; };
+		1878B7CF16DFB11300CBC9DA /* CBSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7CE16DFB11300CBC9DA /* CBSliderViewController.m */; };
+		1878B7D316DFB52300CBC9DA /* CBSteperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7D216DFB52300CBC9DA /* CBSteperViewController.m */; };
+		1878B7D716E0E43200CBC9DA /* CBSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7D616E0E43200CBC9DA /* CBSegmentViewController.m */; };
+		1878B7DB16E0FD0400CBC9DA /* CBSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7DA16E0FD0400CBC9DA /* CBSwitchViewController.m */; };
+		1878B7DF16E0FF0600CBC9DA /* CBIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7DE16E0FF0600CBC9DA /* CBIndicatorViewController.m */; };
+		1878B7E316E2322500CBC9DA /* CBProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7E216E2322500CBC9DA /* CBProgressViewController.m */; };
+		1878B7E816E2386300CBC9DA /* CBDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7E716E2386300CBC9DA /* CBDatePickerViewController.m */; };
+		1878B7EB16E2387D00CBC9DA /* CBPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7EA16E2387D00CBC9DA /* CBPickerViewController.m */; };
+		1878B7EF16E4EC2400CBC9DA /* CBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7EE16E4EC2400CBC9DA /* CBWebViewController.m */; };
+		1878B7F316E4EDBE00CBC9DA /* CBMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7F216E4EDBE00CBC9DA /* CBMapViewController.m */; };
+		1878B7F516E4F1AB00CBC9DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1878B7F416E4F1AB00CBC9DA /* MapKit.framework */; };
+		18E8F25916F9A5670084B71C /* CBPageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F25816F9A5670084B71C /* CBPageControllerViewController.m */; };
+		18E8F25D16F9A9DC0084B71C /* CBNavigationBarItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F25C16F9A9DC0084B71C /* CBNavigationBarItemViewController.m */; };
+		18E8F26116F9ECD30084B71C /* CBGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F26016F9ECD30084B71C /* CBGestureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +57,39 @@
 		186EC3E516D9DE3000755AFF /* CBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBMasterViewController.m; sourceTree = "<group>"; };
 		186EC3E716D9DE3000755AFF /* CBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBDetailViewController.h; sourceTree = "<group>"; };
 		186EC3E816D9DE3000755AFF /* CBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBDetailViewController.m; sourceTree = "<group>"; };
+		186EC3F016DA6E2800755AFF /* CBMainEntryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMainEntryData.h; sourceTree = "<group>"; };
+		186EC3F116DA6E2800755AFF /* CBMainEntryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMainEntryData.m; sourceTree = "<group>"; };
+		186EC3F716DE630900755AFF /* CBButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBButtonViewController.h; sourceTree = "<group>"; };
+		186EC3F816DE630900755AFF /* CBButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBButtonViewController.m; sourceTree = "<group>"; };
+		186EC3FB16DE63FC00755AFF /* CBTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBTextFieldViewController.h; sourceTree = "<group>"; };
+		186EC3FC16DE63FC00755AFF /* CBTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBTextFieldViewController.m; sourceTree = "<group>"; };
+		1878B7CD16DFB11300CBC9DA /* CBSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSliderViewController.h; sourceTree = "<group>"; };
+		1878B7CE16DFB11300CBC9DA /* CBSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSliderViewController.m; sourceTree = "<group>"; };
+		1878B7D116DFB52300CBC9DA /* CBSteperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSteperViewController.h; sourceTree = "<group>"; };
+		1878B7D216DFB52300CBC9DA /* CBSteperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSteperViewController.m; sourceTree = "<group>"; };
+		1878B7D516E0E43200CBC9DA /* CBSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSegmentViewController.h; sourceTree = "<group>"; };
+		1878B7D616E0E43200CBC9DA /* CBSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSegmentViewController.m; sourceTree = "<group>"; };
+		1878B7D916E0FD0400CBC9DA /* CBSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSwitchViewController.h; sourceTree = "<group>"; };
+		1878B7DA16E0FD0400CBC9DA /* CBSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSwitchViewController.m; sourceTree = "<group>"; };
+		1878B7DD16E0FF0600CBC9DA /* CBIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBIndicatorViewController.h; sourceTree = "<group>"; };
+		1878B7DE16E0FF0600CBC9DA /* CBIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBIndicatorViewController.m; sourceTree = "<group>"; };
+		1878B7E116E2322500CBC9DA /* CBProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBProgressViewController.h; sourceTree = "<group>"; };
+		1878B7E216E2322500CBC9DA /* CBProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBProgressViewController.m; sourceTree = "<group>"; };
+		1878B7E616E2386300CBC9DA /* CBDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBDatePickerViewController.h; sourceTree = "<group>"; };
+		1878B7E716E2386300CBC9DA /* CBDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBDatePickerViewController.m; sourceTree = "<group>"; };
+		1878B7E916E2387D00CBC9DA /* CBPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPickerViewController.h; sourceTree = "<group>"; };
+		1878B7EA16E2387D00CBC9DA /* CBPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPickerViewController.m; sourceTree = "<group>"; };
+		1878B7ED16E4EC2400CBC9DA /* CBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWebViewController.h; sourceTree = "<group>"; };
+		1878B7EE16E4EC2400CBC9DA /* CBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWebViewController.m; sourceTree = "<group>"; };
+		1878B7F116E4EDBE00CBC9DA /* CBMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMapViewController.h; sourceTree = "<group>"; };
+		1878B7F216E4EDBE00CBC9DA /* CBMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMapViewController.m; sourceTree = "<group>"; };
+		1878B7F416E4F1AB00CBC9DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18E8F25716F9A5670084B71C /* CBPageControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPageControllerViewController.h; sourceTree = "<group>"; };
+		18E8F25816F9A5670084B71C /* CBPageControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPageControllerViewController.m; sourceTree = "<group>"; };
+		18E8F25B16F9A9DC0084B71C /* CBNavigationBarItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNavigationBarItemViewController.h; sourceTree = "<group>"; };
+		18E8F25C16F9A9DC0084B71C /* CBNavigationBarItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBNavigationBarItemViewController.m; sourceTree = "<group>"; };
+		18E8F25F16F9ECD30084B71C /* CBGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBGestureViewController.h; sourceTree = "<group>"; };
+		18E8F26016F9ECD30084B71C /* CBGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBGestureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1878B7F516E4F1AB00CBC9DA /* MapKit.framework in Frameworks */,
 				186EC3CA16D9DE3000755AFF /* UIKit.framework in Frameworks */,
 				186EC3CC16D9DE3000755AFF /* Foundation.framework in Frameworks */,
 				186EC3CE16D9DE3000755AFF /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +110,7 @@
 		186EC3BD16D9DE3000755AFF = {
 			isa = PBXGroup;
 			children = (
+				1878B7F416E4F1AB00CBC9DA /* MapKit.framework */,
 				186EC3CF16D9DE3000755AFF /* CodeBook */,
 				186EC3C816D9DE3000755AFF /* Frameworks */,
 				186EC3C716D9DE3000755AFF /* Products */,
@@ -86,6 +138,21 @@
 		186EC3CF16D9DE3000755AFF /* CodeBook */ = {
 			isa = PBXGroup;
 			children = (
+				18E8F25E16F9ECC20084B71C /* gesture */,
+				18E8F25A16F9A9BE0084B71C /* navigationbaritem */,
+				18E8F25616F9A5470084B71C /* pagecontroller */,
+				1878B7F016E4EDAE00CBC9DA /* mapview */,
+				1878B7EC16E4EC0600CBC9DA /* webview */,
+				1878B7E516E2384F00CBC9DA /* picker */,
+				1878B7E416E2384300CBC9DA /* datepicker */,
+				1878B7E016E2320F00CBC9DA /* progress */,
+				1878B7DC16E0FEEB00CBC9DA /* indicator */,
+				1878B7D816E0FCEB00CBC9DA /* switch */,
+				1878B7D416E0E41E00CBC9DA /* segment */,
+				1878B7D016DFB51000CBC9DA /* steper */,
+				1878B7C916DFB0B100CBC9DA /* slider */,
+				186EC3FA16DE63E100755AFF /* textfield */,
+				186EC3F316DE623200755AFF /* button */,
 				186EC3D816D9DE3000755AFF /* CBAppDelegate.h */,
 				186EC3D916D9DE3000755AFF /* CBAppDelegate.m */,
 				186EC3E116D9DE3000755AFF /* MainStoryboard.storyboard */,
@@ -94,6 +161,8 @@
 				186EC3E716D9DE3000755AFF /* CBDetailViewController.h */,
 				186EC3E816D9DE3000755AFF /* CBDetailViewController.m */,
 				186EC3D016D9DE3000755AFF /* Supporting Files */,
+				186EC3F016DA6E2800755AFF /* CBMainEntryData.h */,
+				186EC3F116DA6E2800755AFF /* CBMainEntryData.m */,
 			);
 			path = CodeBook;
 			sourceTree = "<group>";
@@ -112,6 +181,141 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		186EC3F316DE623200755AFF /* button */ = {
+			isa = PBXGroup;
+			children = (
+				186EC3F716DE630900755AFF /* CBButtonViewController.h */,
+				186EC3F816DE630900755AFF /* CBButtonViewController.m */,
+			);
+			name = button;
+			sourceTree = "<group>";
+		};
+		186EC3FA16DE63E100755AFF /* textfield */ = {
+			isa = PBXGroup;
+			children = (
+				186EC3FB16DE63FC00755AFF /* CBTextFieldViewController.h */,
+				186EC3FC16DE63FC00755AFF /* CBTextFieldViewController.m */,
+			);
+			name = textfield;
+			sourceTree = "<group>";
+		};
+		1878B7C916DFB0B100CBC9DA /* slider */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7CD16DFB11300CBC9DA /* CBSliderViewController.h */,
+				1878B7CE16DFB11300CBC9DA /* CBSliderViewController.m */,
+			);
+			name = slider;
+			sourceTree = "<group>";
+		};
+		1878B7D016DFB51000CBC9DA /* steper */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7D116DFB52300CBC9DA /* CBSteperViewController.h */,
+				1878B7D216DFB52300CBC9DA /* CBSteperViewController.m */,
+			);
+			name = steper;
+			sourceTree = "<group>";
+		};
+		1878B7D416E0E41E00CBC9DA /* segment */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7D516E0E43200CBC9DA /* CBSegmentViewController.h */,
+				1878B7D616E0E43200CBC9DA /* CBSegmentViewController.m */,
+			);
+			name = segment;
+			sourceTree = "<group>";
+		};
+		1878B7D816E0FCEB00CBC9DA /* switch */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7D916E0FD0400CBC9DA /* CBSwitchViewController.h */,
+				1878B7DA16E0FD0400CBC9DA /* CBSwitchViewController.m */,
+			);
+			name = switch;
+			sourceTree = "<group>";
+		};
+		1878B7DC16E0FEEB00CBC9DA /* indicator */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7DD16E0FF0600CBC9DA /* CBIndicatorViewController.h */,
+				1878B7DE16E0FF0600CBC9DA /* CBIndicatorViewController.m */,
+			);
+			name = indicator;
+			sourceTree = "<group>";
+		};
+		1878B7E016E2320F00CBC9DA /* progress */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7E116E2322500CBC9DA /* CBProgressViewController.h */,
+				1878B7E216E2322500CBC9DA /* CBProgressViewController.m */,
+			);
+			name = progress;
+			sourceTree = "<group>";
+		};
+		1878B7E416E2384300CBC9DA /* datepicker */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7E616E2386300CBC9DA /* CBDatePickerViewController.h */,
+				1878B7E716E2386300CBC9DA /* CBDatePickerViewController.m */,
+			);
+			name = datepicker;
+			sourceTree = "<group>";
+		};
+		1878B7E516E2384F00CBC9DA /* picker */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7E916E2387D00CBC9DA /* CBPickerViewController.h */,
+				1878B7EA16E2387D00CBC9DA /* CBPickerViewController.m */,
+			);
+			name = picker;
+			sourceTree = "<group>";
+		};
+		1878B7EC16E4EC0600CBC9DA /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7ED16E4EC2400CBC9DA /* CBWebViewController.h */,
+				1878B7EE16E4EC2400CBC9DA /* CBWebViewController.m */,
+			);
+			name = webview;
+			sourceTree = "<group>";
+		};
+		1878B7F016E4EDAE00CBC9DA /* mapview */ = {
+			isa = PBXGroup;
+			children = (
+				1878B7F116E4EDBE00CBC9DA /* CBMapViewController.h */,
+				1878B7F216E4EDBE00CBC9DA /* CBMapViewController.m */,
+			);
+			name = mapview;
+			sourceTree = "<group>";
+		};
+		18E8F25616F9A5470084B71C /* pagecontroller */ = {
+			isa = PBXGroup;
+			children = (
+				18E8F25716F9A5670084B71C /* CBPageControllerViewController.h */,
+				18E8F25816F9A5670084B71C /* CBPageControllerViewController.m */,
+			);
+			name = pagecontroller;
+			sourceTree = "<group>";
+		};
+		18E8F25A16F9A9BE0084B71C /* navigationbaritem */ = {
+			isa = PBXGroup;
+			children = (
+				18E8F25B16F9A9DC0084B71C /* CBNavigationBarItemViewController.h */,
+				18E8F25C16F9A9DC0084B71C /* CBNavigationBarItemViewController.m */,
+			);
+			name = navigationbaritem;
+			sourceTree = "<group>";
+		};
+		18E8F25E16F9ECC20084B71C /* gesture */ = {
+			isa = PBXGroup;
+			children = (
+				18E8F25F16F9ECD30084B71C /* CBGestureViewController.h */,
+				18E8F26016F9ECD30084B71C /* CBGestureViewController.m */,
+			);
+			name = gesture;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +326,7 @@
 				186EC3C216D9DE3000755AFF /* Sources */,
 				186EC3C316D9DE3000755AFF /* Frameworks */,
 				186EC3C416D9DE3000755AFF /* Resources */,
+				186EC3EF16D9DE7B00755AFF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -174,6 +379,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		186EC3EF16D9DE7B00755AFF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		186EC3C216D9DE3000755AFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -183,6 +404,22 @@
 				186EC3DA16D9DE3000755AFF /* CBAppDelegate.m in Sources */,
 				186EC3E616D9DE3000755AFF /* CBMasterViewController.m in Sources */,
 				186EC3E916D9DE3000755AFF /* CBDetailViewController.m in Sources */,
+				186EC3F216DA6E2900755AFF /* CBMainEntryData.m in Sources */,
+				186EC3F916DE630900755AFF /* CBButtonViewController.m in Sources */,
+				186EC3FD16DE63FC00755AFF /* CBTextFieldViewController.m in Sources */,
+				1878B7CF16DFB11300CBC9DA /* CBSliderViewController.m in Sources */,
+				1878B7D316DFB52300CBC9DA /* CBSteperViewController.m in Sources */,
+				1878B7D716E0E43200CBC9DA /* CBSegmentViewController.m in Sources */,
+				1878B7DB16E0FD0400CBC9DA /* CBSwitchViewController.m in Sources */,
+				1878B7DF16E0FF0600CBC9DA /* CBIndicatorViewController.m in Sources */,
+				1878B7E316E2322500CBC9DA /* CBProgressViewController.m in Sources */,
+				1878B7E816E2386300CBC9DA /* CBDatePickerViewController.m in Sources */,
+				1878B7EB16E2387D00CBC9DA /* CBPickerViewController.m in Sources */,
+				1878B7EF16E4EC2400CBC9DA /* CBWebViewController.m in Sources */,
+				1878B7F316E4EDBE00CBC9DA /* CBMapViewController.m in Sources */,
+				18E8F25916F9A5670084B71C /* CBPageControllerViewController.m in Sources */,
+				18E8F25D16F9A9DC0084B71C /* CBNavigationBarItemViewController.m in Sources */,
+				18E8F26116F9ECD30084B71C /* CBGestureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +504,8 @@
 		186EC3ED16D9DE3000755AFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
@@ -278,6 +517,8 @@
 		186EC3EE16D9DE3000755AFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
@@ -305,6 +546,7 @@
 				186EC3EE16D9DE3000755AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

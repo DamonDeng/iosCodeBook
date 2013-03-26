@@ -9,6 +9,8 @@
 #import "CBMasterViewController.h"
 
 #import "CBDetailViewController.h"
+#import "CBMainEntryData.h"
+
 
 @interface CBMasterViewController () {
     NSMutableArray *_objects;
@@ -26,10 +28,73 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+// We don't need the edit and add button at present.
+    
+//    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+//
+//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+//    self.navigationItem.rightBarButtonItem = addButton;
+    
+    
+    NSArray *entryNames=[NSArray arrayWithObjects:@"Gesture",
+                         @"NavigationBarItem",
+                         @"PageController",
+                         @"ScrollView",
+                         @"MapView",
+                         @"WebView",
+                         @"TextView",
+                         @"ImageView",
+                         @"Picker",
+                         @"DatePicker",
+                         @"Progress",
+                         @"Indicator",
+                         @"Switch",
+                         @"Segment",
+                         @"Steper",
+                         @"Slider",
+                         @"TextField",
+                         @"Button",nil];
+    
+    
+    NSArray *entryValues=[NSArray arrayWithObjects:@"GestureViewCell",
+                          @"NavigationBarItemViewCell",
+                          @"PageControllerViewCell",
+                          @"ScrollViewCell",
+                          @"MapViewCell",
+                          @"WebViewCell",
+                          @"TextViewCell",
+                          @"ImageViewCell",
+                          @"PickerCell",
+                          @"DatePickerCell",
+                          @"ProgressCell",
+                          @"IndicatorCell",
+                          @"SwitchCell",
+                          @"SegmentCell",
+                          @"SteperCell",
+                          @"SliderCell",
+                          @"TextFieldCell",
+                          @"ButtonCell",nil];
+
+    
+    for(int i=0;i<[entryNames count];i++)
+    {
+        CBMainEntryData *newData=[[CBMainEntryData alloc] init];
+        
+        
+        
+        newData.entryName=entryNames[i];
+        newData.entryValue=entryValues[i];
+        
+        [self insertNewObject:newData];
+        
+    
+    }
+    
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,9 +108,16 @@
     if (!_objects) {
         _objects = [[NSMutableArray alloc] init];
     }
-    [_objects insertObject:[NSDate date] atIndex:0];
+    
+    [_objects insertObject:sender atIndex:0];
+    
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
+
+- (BOOL) shouldAutorotate
+{
+    return YES;
 }
 
 #pragma mark - Table View
@@ -62,10 +134,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    CBMainEntryData *object = _objects[indexPath.row];
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:object.entryValue forIndexPath:indexPath];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    
+    cell.textLabel.text = object.entryName;
     return cell;
 }
 
@@ -103,11 +177,11 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
-    }
+//    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+//        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+//        NSDate *object = _objects[indexPath.row];
+//        [[segue destinationViewController] setDetailItem:object];
+//    }
 }
 
 @end
