@@ -31,6 +31,7 @@
 		1878B7EF16E4EC2400CBC9DA /* CBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7EE16E4EC2400CBC9DA /* CBWebViewController.m */; };
 		1878B7F316E4EDBE00CBC9DA /* CBMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878B7F216E4EDBE00CBC9DA /* CBMapViewController.m */; };
 		1878B7F516E4F1AB00CBC9DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1878B7F416E4F1AB00CBC9DA /* MapKit.framework */; };
+		1878E7C61701EB0E00F06B6D /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1878E7C51701EB0E00F06B6D /* readme.txt */; };
 		18E8F25916F9A5670084B71C /* CBPageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F25816F9A5670084B71C /* CBPageControllerViewController.m */; };
 		18E8F25D16F9A9DC0084B71C /* CBNavigationBarItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F25C16F9A9DC0084B71C /* CBNavigationBarItemViewController.m */; };
 		18E8F26116F9ECD30084B71C /* CBGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F26016F9ECD30084B71C /* CBGestureViewController.m */; };
@@ -78,6 +79,7 @@
 		1878B7F116E4EDBE00CBC9DA /* CBMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMapViewController.h; sourceTree = "<group>"; };
 		1878B7F216E4EDBE00CBC9DA /* CBMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMapViewController.m; sourceTree = "<group>"; };
 		1878B7F416E4F1AB00CBC9DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1878E7C51701EB0E00F06B6D /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		18E8F25716F9A5670084B71C /* CBPageControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPageControllerViewController.h; sourceTree = "<group>"; };
 		18E8F25816F9A5670084B71C /* CBPageControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPageControllerViewController.m; sourceTree = "<group>"; };
 		18E8F25B16F9A9DC0084B71C /* CBNavigationBarItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNavigationBarItemViewController.h; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		186EC3BD16D9DE3000755AFF = {
 			isa = PBXGroup;
 			children = (
+				1878E7C51701EB0E00F06B6D /* readme.txt */,
 				1878B7F416E4F1AB00CBC9DA /* MapKit.framework */,
 				186EC3CF16D9DE3000755AFF /* CodeBook */,
 				186EC3C816D9DE3000755AFF /* Frameworks */,
@@ -364,6 +367,7 @@
 				186EC3DE16D9DE3000755AFF /* Default@2x.png in Resources */,
 				186EC3E016D9DE3000755AFF /* Default-568h@2x.png in Resources */,
 				186EC3E316D9DE3000755AFF /* MainStoryboard.storyboard in Resources */,
+				1878E7C61701EB0E00F06B6D /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
