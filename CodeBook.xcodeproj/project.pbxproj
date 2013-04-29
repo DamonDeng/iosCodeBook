@@ -385,7 +385,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -496,12 +496,14 @@
 		186EC3ED16D9DE3000755AFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: damon deng (7639J2HKEP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: damon deng (7639J2HKEP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "160D62A8-5DF7-4CC4-B65C-6EE7407CD6B1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "160D62A8-5DF7-4CC4-B65C-6EE7407CD6B1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -509,12 +511,14 @@
 		186EC3EE16D9DE3000755AFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: damon deng (7639J2HKEP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: damon deng (7639J2HKEP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "160D62A8-5DF7-4CC4-B65C-6EE7407CD6B1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "160D62A8-5DF7-4CC4-B65C-6EE7407CD6B1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
