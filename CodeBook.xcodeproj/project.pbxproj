@@ -16,7 +16,7 @@
 		186EC3DC16D9DE3000755AFF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3DB16D9DE3000755AFF /* Default.png */; };
 		186EC3DE16D9DE3000755AFF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3DD16D9DE3000755AFF /* Default@2x.png */; };
 		186EC3E016D9DE3000755AFF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3DF16D9DE3000755AFF /* Default-568h@2x.png */; };
-		186EC3E316D9DE3000755AFF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3E116D9DE3000755AFF /* MainStoryboard.storyboard */; };
+		186EC3E316D9DE3000755AFF /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186EC3E116D9DE3000755AFF /* iPhoneStoryboard.storyboard */; };
 		186EC3F216DA6E2900755AFF /* CBMainEntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3F116DA6E2800755AFF /* CBMainEntryData.m */; };
 		186EC3F916DE630900755AFF /* CBButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3F816DE630900755AFF /* CBButtonViewController.m */; };
 		186EC3FD16DE63FC00755AFF /* CBTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC3FC16DE63FC00755AFF /* CBTextFieldViewController.m */; };
@@ -35,6 +35,7 @@
 		18E8F25916F9A5670084B71C /* CBPageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F25816F9A5670084B71C /* CBPageControllerViewController.m */; };
 		18E8F25D16F9A9DC0084B71C /* CBNavigationBarItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F25C16F9A9DC0084B71C /* CBNavigationBarItemViewController.m */; };
 		18E8F26116F9ECD30084B71C /* CBGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F26016F9ECD30084B71C /* CBGestureViewController.m */; };
+		8D4B94E2172E3C4100B1912D /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4B94E1172E3C4100B1912D /* iPadStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +52,7 @@
 		186EC3DB16D9DE3000755AFF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		186EC3DD16D9DE3000755AFF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		186EC3DF16D9DE3000755AFF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		186EC3E216D9DE3000755AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		186EC3E216D9DE3000755AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 		186EC3F016DA6E2800755AFF /* CBMainEntryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMainEntryData.h; sourceTree = "<group>"; };
 		186EC3F116DA6E2800755AFF /* CBMainEntryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMainEntryData.m; sourceTree = "<group>"; };
 		186EC3F716DE630900755AFF /* CBButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBButtonViewController.h; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		18E8F25C16F9A9DC0084B71C /* CBNavigationBarItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBNavigationBarItemViewController.m; sourceTree = "<group>"; };
 		18E8F25F16F9ECD30084B71C /* CBGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBGestureViewController.h; sourceTree = "<group>"; };
 		18E8F26016F9ECD30084B71C /* CBGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBGestureViewController.m; sourceTree = "<group>"; };
+		8D4B94E1172E3C4100B1912D /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPadStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,10 +154,11 @@
 				186EC3F316DE623200755AFF /* button */,
 				186EC3D816D9DE3000755AFF /* CBAppDelegate.h */,
 				186EC3D916D9DE3000755AFF /* CBAppDelegate.m */,
-				186EC3E116D9DE3000755AFF /* MainStoryboard.storyboard */,
+				186EC3E116D9DE3000755AFF /* iPhoneStoryboard.storyboard */,
 				186EC3D016D9DE3000755AFF /* Supporting Files */,
 				186EC3F016DA6E2800755AFF /* CBMainEntryData.h */,
 				186EC3F116DA6E2800755AFF /* CBMainEntryData.m */,
+				8D4B94E1172E3C4100B1912D /* iPadStoryboard.storyboard */,
 			);
 			path = CodeBook;
 			sourceTree = "<group>";
@@ -366,8 +369,9 @@
 				186EC3DC16D9DE3000755AFF /* Default.png in Resources */,
 				186EC3DE16D9DE3000755AFF /* Default@2x.png in Resources */,
 				186EC3E016D9DE3000755AFF /* Default-568h@2x.png in Resources */,
-				186EC3E316D9DE3000755AFF /* MainStoryboard.storyboard in Resources */,
+				186EC3E316D9DE3000755AFF /* iPhoneStoryboard.storyboard in Resources */,
 				1878E7C61701EB0E00F06B6D /* readme.txt in Resources */,
+				8D4B94E2172E3C4100B1912D /* iPadStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +430,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		186EC3E116D9DE3000755AFF /* MainStoryboard.storyboard */ = {
+		186EC3E116D9DE3000755AFF /* iPhoneStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				186EC3E216D9DE3000755AFF /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = iPhoneStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -501,9 +505,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "160D62A8-5DF7-4CC4-B65C-6EE7407CD6B1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "160D62A8-5DF7-4CC4-B65C-6EE7407CD6B1";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -516,9 +522,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "160D62A8-5DF7-4CC4-B65C-6EE7407CD6B1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "160D62A8-5DF7-4CC4-B65C-6EE7407CD6B1";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
